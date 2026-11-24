@@ -1,0 +1,32 @@
+# Dependencias (se reinstalan con "npm install", pesan cientos de MB)
+node_modules/
+
+# Base de datos local (se crea automáticamente al arrancar el servidor)
+inventario.db
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Archivos de herramientas / pruebas automatizadas
+.playwright-mcp/
+
+# Archivos temporales y de logs
+*.log
+npm-debug.log*
+logs/
+
+# Archivos basura de los sistemas operativos
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.idea/
+*.swp
